@@ -30,6 +30,11 @@ pipeline{
         }
       }
     }
-    }  
+    }
+   stage('stage-6'){
+        steps{
+          echo 'this is stage6'
+        }
+      }
   }
 }
